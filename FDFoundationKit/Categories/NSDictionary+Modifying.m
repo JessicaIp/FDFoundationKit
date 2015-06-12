@@ -8,7 +8,7 @@
 
 #pragma mark - Public Methods
 
-- (instancetype)dictionaryByAddingEntriesFromDictionary: (NSDictionary *)dictionary
+- (instancetype)FD_dictionaryByAddingEntriesFromDictionary: (NSDictionary *)dictionary
 {
 	// Make a copy of self.
 	NSMutableDictionary *copiedDictionary = [self mutableCopy];

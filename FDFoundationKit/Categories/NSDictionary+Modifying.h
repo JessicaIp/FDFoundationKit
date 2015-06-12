@@ -18,7 +18,7 @@ Returns a new dictionary that is a copy of the receiving dictionary with the ent
 
 @return A copy of the receiver with the entries in dictionary added on.
 */
-- (instancetype)dictionaryByAddingEntriesFromDictionary: (NSDictionary *)dictionary;
+- (instancetype)FD_dictionaryByAddingEntriesFromDictionary: (NSDictionary *)dictionary;
 
 
 @end
